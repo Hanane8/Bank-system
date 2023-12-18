@@ -53,17 +53,7 @@ namespace Bank
             }
             return false; 
         }
-        public static Account CreateNewAccount(List<User> users, User user)
-        {
-            Account newAccount = new Account(Account.GenerateAccountNumber(users), 0); 
-            user.Accounts.Add(newAccount); 
-            return newAccount; 
-        }
-        public List<Account> GetAccounts()
-        {
-            return accounts;
-
-        }
+        
         public void MakePayment(string receiverAccountNumber, string ocrNumber, decimal amount,DateTime paymentOperationDate)
         {
             if (Balance >= amount)

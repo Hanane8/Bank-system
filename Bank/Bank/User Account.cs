@@ -39,8 +39,7 @@ namespace Bank
         private void UpdateUserFile()
         {
             try
-            {
-                
+            {                
                 string jsonUsers = JsonConvert.SerializeObject(users, Formatting.Indented);
                 File.WriteAllText("User.json", jsonUsers);
             }

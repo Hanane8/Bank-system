@@ -31,9 +31,6 @@ namespace Bank
             Accounts = new List<Account>();
             users.Add(this);
         }
-        public static List<User> GetUsers()
-        {
-            return users;
-        }
+       
     }
 }

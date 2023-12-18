@@ -91,11 +91,10 @@
             tabPage2.Location = new Point(4, 34);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(656, 464);
+            tabPage2.Size = new Size(688, 464);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "All Accounts";
             tabPage2.UseVisualStyleBackColor = true;
-           
             // 
             // dataGridView1
             // 
@@ -108,9 +107,8 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.RowTemplate.Height = 33;
-            dataGridView1.Size = new Size(650, 458);
+            dataGridView1.Size = new Size(682, 458);
             dataGridView1.TabIndex = 2;
-         
             // 
             // accountNumberDataGridViewTextBoxColumn
             // 
@@ -144,7 +142,7 @@
             tabPage1.Location = new Point(4, 34);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(656, 464);
+            tabPage1.Size = new Size(688, 464);
             tabPage1.TabIndex = 2;
             tabPage1.Text = "Deposit";
             tabPage1.UseVisualStyleBackColor = true;
@@ -159,13 +157,12 @@
             label10.Size = new Size(206, 45);
             label10.TabIndex = 6;
             label10.Text = "Cash Deposit";
-           
             // 
             // comboBox1
             // 
             comboBox1.DataSource = accountBindingSource;
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(294, 147);
+            comboBox1.Location = new Point(270, 139);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(182, 33);
             comboBox1.TabIndex = 5;
@@ -174,16 +171,15 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(96, 251);
+            label2.Location = new Point(96, 245);
             label2.Name = "label2";
             label2.Size = new Size(77, 25);
             label2.TabIndex = 4;
             label2.Text = "Amount";
-           
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(294, 251);
+            textBox2.Location = new Point(270, 245);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(182, 31);
             textBox2.TabIndex = 3;
@@ -191,7 +187,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(96, 147);
+            label1.Location = new Point(96, 139);
             label1.Name = "label1";
             label1.Size = new Size(128, 25);
             label1.TabIndex = 1;
@@ -199,7 +195,7 @@
             // 
             // btnDeposit
             // 
-            btnDeposit.Location = new Point(294, 343);
+            btnDeposit.Location = new Point(281, 333);
             btnDeposit.Name = "btnDeposit";
             btnDeposit.Size = new Size(147, 42);
             btnDeposit.TabIndex = 0;
@@ -278,7 +274,6 @@
             label3.Size = new Size(128, 25);
             label3.TabIndex = 0;
             label3.Text = "Select Account";
-            
             // 
             // tabPage4
             // 
