@@ -1,0 +1,185 @@
+[
+  {
+    "Name": "Sara",
+    "Password": "1111",
+    "Email": "sara@gmail.com",
+    "PersonalNumber": "9999",
+    "Role": 0,
+    "Accounts": [
+      {
+        "accounts": [],
+        "AccountNumber": "85332764",
+        "Balance": 21000.0,
+        "Transactions": []
+      }
+    ]
+  },
+  {
+    "Name": "Maria",
+    "Password": "1234",
+    "Email": "maria@gmail.com",
+    "PersonalNumber": "1212",
+    "Role": 1,
+    "Accounts": []
+  },
+  {
+    "Name": "Mark",
+    "Password": "1234",
+    "Email": "mark@gmail.com",
+    "PersonalNumber": "1980",
+    "Role": 0,
+    "Accounts": [
+      {
+        "accounts": [],
+        "AccountNumber": "47900478",
+        "Balance": 5000.0,
+        "Transactions": [
+          {
+            "Type": "Deposit",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": null,
+            "Amount": 5000.0,
+            "OCRNumber": null,
+            "OperationDate": "2023-12-18T12:46:02.5980549+01:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Mark",
+    "Password": "1234",
+    "Email": "mark@gmail.com",
+    "PersonalNumber": "1980",
+    "Role": 0,
+    "Accounts": [
+      {
+        "accounts": [],
+        "AccountNumber": "11865874",
+        "Balance": 25000.0,
+        "Transactions": [
+          {
+            "Type": "Deposit",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": null,
+            "Amount": 30000.0,
+            "OCRNumber": null,
+            "OperationDate": "2023-12-18T12:46:16.7069292+01:00"
+          },
+          {
+            "Type": "Withdrawal",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": null,
+            "Amount": 4000.0,
+            "OCRNumber": null,
+            "OperationDate": "2023-12-18T12:46:24.6383199+01:00"
+          },
+          {
+            "Type": "Payment",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": "11111",
+            "Amount": 1000.0,
+            "OCRNumber": "1111",
+            "OperationDate": "2023-12-18T12:46:43.0146126+01:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ali",
+    "Password": "1234",
+    "Email": "ali@gmail.com",
+    "PersonalNumber": "1990",
+    "Role": 0,
+    "Accounts": [
+      {
+        "accounts": [],
+        "AccountNumber": "45820059",
+        "Balance": 10100.0,
+        "Transactions": [
+          {
+            "Type": "Deposit",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": null,
+            "Amount": 10000.0,
+            "OCRNumber": null,
+            "OperationDate": "2023-12-18T12:43:41.6315016+01:00"
+          },
+          {
+            "Type": "Withdrawal",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": null,
+            "Amount": 2000.0,
+            "OCRNumber": null,
+            "OperationDate": "2023-12-18T12:44:09.0606221+01:00"
+          },
+          {
+            "Type": "Payment",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": "22222",
+            "Amount": 1500.0,
+            "OCRNumber": "22222",
+            "OperationDate": "2023-12-18T12:44:29.1979054+01:00"
+          },
+          {
+            "Type": "Deposit",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": null,
+            "Amount": 2000.0,
+            "OCRNumber": null,
+            "OperationDate": "2023-12-18T20:45:11.9089135+01:00"
+          },
+          {
+            "Type": "Withdrawal",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": null,
+            "Amount": 400.0,
+            "OCRNumber": null,
+            "OperationDate": "2023-12-18T20:45:19.2575118+01:00"
+          },
+          {
+            "Type": "Deposit",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": null,
+            "Amount": 2000.0,
+            "OCRNumber": null,
+            "OperationDate": "2023-12-18T20:45:34.6138664+01:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ali",
+    "Password": "1234",
+    "Email": "ali@gmail.com",
+    "PersonalNumber": "1990",
+    "Role": 0,
+    "Accounts": [
+      {
+        "accounts": [],
+        "AccountNumber": "80157360",
+        "Balance": 19000.0,
+        "Transactions": [
+          {
+            "Type": "Deposit",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": null,
+            "Amount": 20000.0,
+            "OCRNumber": null,
+            "OperationDate": "2023-12-18T12:43:50.7297321+01:00"
+          },
+          {
+            "Type": "Withdrawal",
+            "SenderAccountNumber": null,
+            "ReceiverAccountNumber": null,
+            "Amount": 1000.0,
+            "OCRNumber": null,
+            "OperationDate": "2023-12-18T12:43:58.7117967+01:00"
+          }
+        ]
+      }
+    ]
+  }
+]
